@@ -1,6 +1,6 @@
 .ui-select-trigger{ display:inline-block;vertical-align:middle;border:1px solid #ddd;cursor:pointer;position:relative;border-radius:4px;}
 .ui-select-trigger span{font-size: 12px;color:#2ea3d0;padding:0 15px 0 10px;display: block;  white-space: nowrap;overflow: hidden;text-overflow:ellipsis;}
-.ui-select-trigger.active{border-color:#ccc;border-bottom:none;border-radius: 4px 4px 0 0;}
+.ui-select-trigger.active{border-color:#ccc;border-radius: 4px 4px 0 0;}
 .ui-select-trigger.active i,.ui-select-trigger:hover i{border-top-color: #ccc;}
 .ui-select{position:absolute;display:none;border:1px solid #ccc;min-height: 10px;background-color: #fefefe;overflow-y:auto;}
 .ui-select-trigger i{position:absolute;right:5px;width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:7px solid #ddd;top:5px;}
