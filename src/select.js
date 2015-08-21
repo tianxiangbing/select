@@ -55,6 +55,8 @@
 			this.w = this.settings.width || this.target.outerWidth();
 			this.h = this.settings.height || this.target.outerHeight();
 			this.trigger = $('<div class="ui-select-trigger"><span></span><i></i></div>');
+			var clsname = this.target.attr('class');
+			this.trigger.addClass(clsname)
 			this.trigger.width(this.w);
 			this.trigger.height(this.h).css('lineHeight', this.h + 'px');
 			if (this.settings.disabled || this.target.hasClass('disabled') || this.target.attr('disabled') == 'disabled') {
@@ -157,6 +159,9 @@
 					}
 				}
 				return false;
+			});
+			_this.target.on('set',function(e,v){
+				_this.setValue(v)
 			});
 			this.select.on('click', 'li', function() {
 				if (!$(this).hasClass('ui-select-item-disabled')) {

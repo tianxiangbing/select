@@ -94,3 +94,5 @@
 	选中项改变时触发
 ###blur:
 	隐藏时触发
+###set:function(e,val)
+	$(target).trigger('set','1')设置选中项
