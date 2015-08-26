@@ -131,7 +131,7 @@
 			this.selectContent.find('li').each(function() {
 				if ($(this).data('value') == val) {
 					var txt = txt || $(this).data('text');
-					_this.trigger.children('span').attr('title', txt).html(txt);
+					_this.trigger.children('span').attr('title', txt).text(txt);
 					_this.trigger.attr('data-value', val);
 					_this.target.val(val);
 					_this.target.attr('data-value', val);
