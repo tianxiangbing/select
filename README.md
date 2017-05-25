@@ -1,7 +1,10 @@
 # select
+
 模拟select下拉框
 效果图如下所示
+
 ![select](example/select.jpg)
+
 **[DEMO请案例点击这里查看.](http://www.lovewebgames.com/jsmodule/select.html "select demo")**
 ----------
 # 调用示例
